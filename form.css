@@ -14,6 +14,7 @@ body > h1{
     /* background-color: skyblue; */
     text-shadow: 20px 15px 10px lightblue;
     font-size: 4rem;
+    text-decoration:underline;
 }
 nav a{
     text-decoration: none;
