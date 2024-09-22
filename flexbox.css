@@ -5,8 +5,10 @@
     margin: 30px;
     height: 400px;
     display: flex;
+    /* flex-direction: column-reverse; */
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .box{
     border: 2px dotted tomato;
