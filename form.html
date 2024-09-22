@@ -9,7 +9,9 @@
     <script src="https://kit.fontawesome.com/1d3622b5d7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1><span class="welcome">Sea View</span></h1>
+    <!-- header section -->
+    <header>
+        <h1><span class="welcome">Sea View</span></h1>
     <nav>
       <div class="nav-menu">
         <a href="">Home</a>
@@ -17,7 +19,22 @@
       <a href="">Blog</a>
       <a href="">About</a>
       </div>
-      <a href=""><span><i class="fa-solid fa-user-plus"></i></span> Sign Up</a>
+      <a href=""><span><i class="fa-solid fa-user-plus"></i></span> Log In</a>
     </nav>
+    </header>
+    <!-- main section -->
+    <main class="login-form-container">
+        <form class="login-form">
+            <h2 class="request">Please Sign Up</h2>
+            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="Your Username" required>
+            <input type="email" placeholder="Your Email" id="" required>
+            <input type="password" placeholder="Password" id="" required>
+            <div class="button-container">
+                <input type="submit" value="Confirm">
+            </div>
+            
+        </form>
+    </main>
   </body>
 </html>

@@ -1,16 +1,18 @@
 body{
     background-image: url('sea.jpg');
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
     padding: 10px;
 }
-body > h1{
+/* header section styles */
+header {
     text-align: center;
+    width: 100%;
 }
 .welcome{
-    color: orange;
+    color: purple;
     /* background-color: skyblue; */
     text-shadow: 20px 15px 10px lightblue;
     font-size: 4rem;
@@ -29,4 +31,52 @@ nav{
     display: flex;
     justify-content: space-around;
     gap: 80px;
+}
+
+/* main section styles */
+.login-form-container{
+    display: flex;
+    justify-content: center;
+}
+.request{
+    text-align: center;
+    color: blueviolet;
+    font-size: 25px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* border: 3px dotted red; */
+}
+.login-form input{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-form input[type="submit"] {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 10px;
+    background-color: gray;
+}
+.login-form input:hover {
+    text-align: center;
+}
+.login-form input:focus {
+    font-size: 20px;
+}
+
+.button-container input:hover {
+    background-color: pink;
 }
