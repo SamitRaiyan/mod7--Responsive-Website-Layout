@@ -1,0 +1,14 @@
+.container{
+    border: 2px solid purple;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    border: 2px dotted tomato;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px gray;
+}
