@@ -1,0 +1,31 @@
+body{
+    background-image: url('sea.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 10px;
+}
+body > h1{
+    text-align: center;
+}
+.welcome{
+    color: orange;
+    /* background-color: skyblue; */
+    text-shadow: 20px 15px 10px lightblue;
+    font-size: 4rem;
+}
+nav a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
