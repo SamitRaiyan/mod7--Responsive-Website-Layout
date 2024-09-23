@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+h1 > span{
+    background-color: yellow;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.food{
+    border: 2px solid goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+.food img{
+    width: 100%;
+
+}
